@@ -1,8 +1,11 @@
 import { router } from './router-config.js';
 import { HomeController } from './controllers/HomeController.js';
+import { MoneyController } from './controllers/MoneyCOntroller.js';
 const USE_ROUTER = false
 
 class App {
+
+  MoneyController = new MoneyController()
 
   HomeController = new HomeController()
 

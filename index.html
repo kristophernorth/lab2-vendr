@@ -45,7 +45,7 @@
         <div class="col-md-12">
           <h1 class=" d-flex justify-content-between">
             <span>Vendr logo</span>
-            <span>Add .25</span>
+            <span onclick="app.MoneyController.addQuarter()" role="button">Add .25</span>
           </h1>
         </div>
       </div>
@@ -65,7 +65,7 @@
                   <p class="fs-4">$4.00</p>
                 </div>
                 <div class="col-md-6 text-end">
-                  <p class="fs-4">Buy</p>
+                  <p class="fs-4" role="button">Buy</p>
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@
           <div class="row fs-3 d-flex align-items-center">
             <div class="col-md-6">TOTAL MONIES:</div>
             <div class="col-md-6 text-end">
-              <span>$</span><span>1.75</span>
+              <span id="total-money">0</span>
             </div>
           </div>
         </div>

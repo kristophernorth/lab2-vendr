@@ -7,7 +7,7 @@ const USE_ROUTER = false
 class App {
 
   MoneyController = new MoneyController()
-  SnacksController = new SnacksController
+  SnacksController = new SnacksController()
 
   HomeController = new HomeController()
 

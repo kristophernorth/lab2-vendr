@@ -1,11 +1,13 @@
 import { router } from './router-config.js';
 import { HomeController } from './controllers/HomeController.js';
 import { MoneyController } from './controllers/MoneyCOntroller.js';
+import { SnacksController } from './controllers/SnacksController.js';
 const USE_ROUTER = false
 
 class App {
 
   MoneyController = new MoneyController()
+  SnacksController = new SnacksController
 
   HomeController = new HomeController()
 
